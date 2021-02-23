@@ -1,3 +1,0 @@
-# wcd
-
-A wordpress website.
