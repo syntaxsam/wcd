@@ -1,0 +1,7 @@
+[22-Feb-2021 01:47:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in C:\Users\Sam\Local Sites\wcd\app\public\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php:281
+Stack trace:
+#0 C:\Users\Sam\Local Sites\wcd\app\public\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(24, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\Users\Sam\Local Sites\wcd\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 C:\Users\Sam\Local Sites\wcd\app\public\wp-includes\class-wp-hook.php(287): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 C:\Users\Sam\Local Sites\wcd\app\public\wp-includes\class-wp-hook.p in C:\Users\Sam\Local Sites\wcd\app\public\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php on line 281
